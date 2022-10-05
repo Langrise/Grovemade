@@ -800,4 +800,7 @@ body {
 		margin: 0 10px;
 		padding-bottom: -150px;
 	}
+	.info-text {
+		padding-bottom: 80px;
+	}
 }
