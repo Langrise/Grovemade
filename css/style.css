@@ -179,7 +179,7 @@ body {
 }
 @media (max-width: 767.98px) {
 	.header__link {
-		font-size: 20px;
+		font-size: 95%;
 	}
 
 	.header__container {
@@ -223,6 +223,12 @@ body {
 			rgba(30, 30, 30, 0.551)
 		),
 		url("../img/mainBackground.jfif") center / cover no-repeat fixed;
+}
+@media (max-width: 767.98px) {
+	.mainPage__mainBlock {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 .mainText {
 	display: flex;
@@ -508,6 +514,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+@media (max-width: 767.98px) {
+	.container-home {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 .home-title {
 	font-size: 66px;
@@ -799,6 +811,7 @@ body {
 	.footer__container {
 		margin: 0 10px;
 		padding-bottom: -150px;
+		row-gap: 200px;
 	}
 	.info-text {
 		padding-bottom: 80px;
